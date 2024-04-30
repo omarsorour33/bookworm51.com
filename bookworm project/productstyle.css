@@ -1,0 +1,258 @@
+:root {
+    --primaryColor : #ff274b;
+    --lightColor :#ffffff;
+    --bgColor-1: #171a1c;
+    --bgColor-2: #22282a;
+    --padding: 8%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: var(--lightColor);
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgColor-1);
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 38px;
+    background-color:  #171a1c;
+}
+
+
+span{
+    color: var(--primaryColor);
+background-color:  #171a1c;
+}
+
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+}
+h3{
+     font-size: 2.2rem;
+     cursor: pointer;
+    color: #ff274b;
+    margin-right: 100px;
+}
+
+nav{
+    padding-top: 2.8rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+nav ul li a{
+    color : var(--lightColor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+nav ul li a:hover{
+color: var(--primaryColor);
+}
+
+.btn{
+    background-color: var(--primaryColor);
+    color: var(--lightColor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    border-radius: 30px;
+ margin-left: 90px;
+    margin-bottom: 0px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--primaryColor);
+   
+}
+
+.search input{
+    padding:10px;
+    border:none;
+    border-radius:25px;
+    background-color: var(--lightColor);
+}
+
+input[type="text"]::placeholder {
+    color: var(--lightColor);
+  }
+
+.wrapper {
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto; 
+  height: 100vh;
+background-color:  #171a1c;
+  }
+
+  .wrapperproduct {
+    height: 500px;
+    width: 654px;
+    margin: 100px auto;
+    border-radius: 7px 7px 7px 7px;
+background-color:  #171a1c;
+  }
+
+  .product-img {
+   margin-bottom: 0px;
+      margin-left: 40px;
+margin-top: 0px;
+background-color:  #171a1c;
+  }
+  
+  .product-info {
+    text-align: center;
+background-color:  #171a1c;
+  }
+  
+  .product-text {
+    height: 300px;
+    width: 327px;
+      background-color:  #171a1c;
+  }
+  
+  .product-text h1 {
+    margin: 0px 0px 20px 90px;
+    padding-top: 0px;
+    font-size: 34px;
+    color: white;
+      text-align: center;
+
+  }
+
+
+  .product-text h5 {
+      text-align: left;
+    height: 1px;
+    margin-left: 38px;
+    margin-bottom: 0px;
+    font-family: 'Playfair Display', serif;
+   color: #ffffff;
+    line-height: 1em;
+    font-size: 15px;
+    font-weight: lighter;
+      background-color:  #171a1c;
+  }
+  
+  .product-price-btn {
+    height: 40px;
+    width: 327px;
+    margin-top: 0px;
+   background-color:  #171a1c;
+  }
+  
+  .product-price-btn p {
+    display: inline-block;
+    position: relative;
+    height: 0px;
+    margin-left: 100px;
+      margin-top: 30px;
+    font-size: 30px;
+      margin-bottom: 0px;
+    font-weight: lighter;
+    color: #474747;
+      background-color:  #171a1c;
+  }
+  span2 {
+   background-color:  #171a1c;
+    display: flex;
+    height: 0px;
+    font-size: 25px;
+      color:#ff274b; 
+      margin-top: 100px;
+  }
+  span {
+   background-color:  #171a1c;
+    display: flex;
+    height: 0px;
+    font-size: 25px;
+
+  }
+.product-price-btn button2 :hover{
+     background-color:black;
+}
+   .product-price-btn button2 {
+    float: right;
+    display: flex;
+    height: 50px;
+    width: 97px;
+      margin-right: 50px;
+    margin: auto;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.0em;
+    color: #ffffff;
+    background-color: var(--primaryColor);
+    cursor: pointer;
+    outline: none;
+      align-items: center;
+       margin-top: 100px;
+  }
+  .product-price-btn button {
+    float: right;
+   
+    display: flex;
+    height: 50px;
+    width: 97px;
+     margin-right: 50px;
+   
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.0em;
+    color: #ffffff;
+    background-color: var(--primaryColor);
+    cursor: pointer;
+    outline: none;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 
+  }
+  
+ 
+  footer{
+    background-color:#262626;
+    color: #ffffff;
+    padding: 1.1em;
+    text-align: center;
+  }
